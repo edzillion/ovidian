@@ -1,6 +1,15 @@
 import {Component, View} from 'angular2/core';
-import {ControlGroup} from 'angular2/common';
-import {User} from 'user';
+import {FormBuilder,ControlGroup} from 'angular2/common';
+//import {User} from 'user';
+
+export class User {
+  constructor (
+    public name?: string,
+    public email: string,
+    public phone?: string,
+    public message: string
+  )
+}
 
 @Component({
   selector: 'signup'

@@ -1,6 +1,6 @@
 import {Component, View} from 'angular2/core';
 import * as ss from 'ng-smooth-scroll';
-import {{Signup}} from 'signup';
+import {Signup} from 'signup';
 
 @Component({
   selector: 'ovidian',
@@ -13,8 +13,9 @@ import {{Signup}} from 'signup';
 
 export class Ovidian {
 
-  constructor(public signup: Signup) {
-    console.info('Ovidian Component Mounted Successfully');
+  constructor(signup: Signup) {
+    console.log('gggg',signup);
+    console.info('Oviddddddddddddian Component Mounted Successfully');
 
   }
 
